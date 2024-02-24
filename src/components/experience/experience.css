@@ -12,3 +12,9 @@
     width: 900px;
     height: 399px;
 }
+@media screen and(max-width:480px) {
+.group1{
+    width: 30px;
+    height: 5px;
+}
+}

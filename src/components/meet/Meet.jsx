@@ -12,7 +12,8 @@ const Meet = () => {
 </div>
 
 <div className="imgContainer0">
-    <img src='assets/girl.png' alt='' className='nine'/>
+
+ 
 </div>
         </div>
     )

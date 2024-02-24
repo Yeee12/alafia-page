@@ -38,3 +38,15 @@ margin-top: 40px;
     font-family: Domine;
     font-size: smaller;
 }
+@media screen and (max-width:480px) {
+  .imgContainer4 {
+    display: column;
+   margin-left: 10px;
+gap: 4px;
+margin-top: 20px;
+  }
+  .img{
+    width: 100px; /* Adjust image width as needed */
+    height: 80px;
+  }
+}

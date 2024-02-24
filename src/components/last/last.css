@@ -42,3 +42,12 @@
     margin-top: 20px;
     line-height: 1.5;
 }
+@media screen and(max-width:480px) {
+    .container1,
+.container2,
+.container3 {
+    margin-right: 22px; /* Adjust spacing between containers */
+    margin-top: -10px;
+    line-height: 0.5;
+}
+}
