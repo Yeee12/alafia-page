@@ -1,40 +1,33 @@
 .last{
-    background-color: #022C3F;
-    height: 50vh;
+    background-color:#022C3F ;
 }
-.bye{
+.lasted{
     width: 100px;
-    margin-top: 40px;
-    margin-left: 200px;
+    padding-left: 20px;
+    margin-top: 100px;
 }
-.ass{
+.span{
     color: #ffffff;
-    margin-top: 10px;
-    margin-left: 200px;
+    padding-left: 50px;
+    margin-bottom: 50px;
 }
-.yes{
+.ritii{
     color: white;
     justify-content: flex-end;
     display: flex;
-    margin-top: -100px;
+    margin-top: -125px;
     padding-right: 70px;
     font-family: Roboto;
 }
 .hr{
-        border: none;
-        border-top: 1px solid #01CAFf;
-        margin: 10px 0;
-        height: 1px;
-        margin-left: 50%;
-        margin-right: 5%;
-        margin-top: 1%;
+    border: none;
+    border-top: 1px solid #01CAFf;
+    margin: 10px 0;
+    height: 1px;
+    margin-left: 500px;
+    margin-right: 50px;
+    margin-top: 40px;
 }
-.big {
-    display: flex;
-    justify-content: flex-end;
-    color: #ffffff;
-}
-
 .container1,
 .container2,
 .container3 {
@@ -42,12 +35,45 @@
     margin-top: 20px;
     line-height: 1.5;
 }
-@media screen and(max-width:480px) {
+.big{
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+margin-top: 30px;
+}
+
+@media screen and (max-width:480px) {
+    .lasted{
+        width: 50px;
+        padding-left: 10px;
+    margin-top: 100px;
+    }
+    .ritii{
+        color: white;
+        justify-content: flex-end;
+        display: flex;
+        margin-top: -125px;
+        padding-right: 10px;
+        font-family: Roboto;
+        font-size: small;
+    }
+    .span{
+        color: #ffffff;
+        padding-left: 10px;
+        margin-bottom: 50px;
+    }
+    .big{
+        display: flex;
+        justify-content: flex-end;
+        color: #ffffff;
+    margin-top: 30px;
+    margin-right: -25px;
+    }
     .container1,
 .container2,
 .container3 {
-    margin-right: 22px; /* Adjust spacing between containers */
-    margin-top: -10px;
-    line-height: 0.5;
+    margin-right: 20px; /* Adjust spacing between containers */
+    margin-top: 20px;
+    line-height: 1.2;
 }
 }
